@@ -1,0 +1,36 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.formulario fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+    
+}
+.formulario label {
+    margin: 15px 0px 0px 15px;
+}
+
+.formulario input {
+    margin: 0px 0px 15px 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.formulario input:nth-child(9) {
+    height: 200px;
+}
+
+.btn-form {
+    padding: 5px;
+    border-radius: .25rem;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #C7B198;
+}
+

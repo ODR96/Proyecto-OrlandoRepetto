@@ -1,0 +1,26 @@
+.card-group>.card+.card {
+    border-left: 2px solid black;
+}
+
+.card {
+    margin: 0 15px;
+    border: 2px solid black;
+    .imgEstilos {
+        border-bottom-right-radius: 0.25rem;
+    }
+    .div__ul {
+        list-style: none;
+        margin-left: -30px;
+        .div__negrita {
+            font-weight: bold;
+            border-left: 1px solid gray;
+        }
+    }
+}
+
+.row>* {
+    overflow: hidden;
+}
+
+
+
