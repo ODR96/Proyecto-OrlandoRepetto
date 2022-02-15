@@ -6,7 +6,7 @@ $redes:(
 
 @each $red, $color in $redes {
     .fa-#{$red} {
-        background: var(--footer-color);
+        background: $footerColor;
         font-size: 60px;
         color: $color;
     }

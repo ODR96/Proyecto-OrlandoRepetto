@@ -26,17 +26,17 @@ html, body {
   border-left: 1px solid gray; }
 
 .fa-twitter {
-  background: var(--footer-color);
+  background: #DFD3C3;
   font-size: 60px;
   color: #1DA1F2; }
 
 .fa-facebook {
-  background: var(--footer-color);
+  background: #DFD3C3;
   font-size: 60px;
   color: #4267B2; }
 
 .fa-instagram {
-  background: var(--footer-color);
+  background: #DFD3C3;
   font-size: 60px;
   color: #3f729b; }
 
