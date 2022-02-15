@@ -3,7 +3,6 @@
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   background-color: #F0ECE3;
-  --footer-color: #DFD3C3;
   color: #333333;
   box-sizing: border-box; }
 
@@ -18,6 +17,28 @@ html, body {
 
 .carousel-control-prev-icon {
   background-color: transparent; }
+
+.card {
+  border-bottom-right-radius: 0.25rem; }
+
+.card .div__ul .div__negrita {
+  font-weight: bold;
+  border-left: 1px solid gray; }
+
+.fa-twitter {
+  background: var(--footer-color);
+  font-size: 60px;
+  color: #1DA1F2; }
+
+.fa-facebook {
+  background: var(--footer-color);
+  font-size: 60px;
+  color: #4267B2; }
+
+.fa-instagram {
+  background: var(--footer-color);
+  font-size: 60px;
+  color: #3f729b; }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -74,14 +95,9 @@ html, body {
 .card {
   margin: 0 15px;
   border: 2px solid black; }
-  .card .imgEstilos {
-    border-bottom-right-radius: 0.25rem; }
   .card .div__ul {
     list-style: none;
     margin-left: -30px; }
-    .card .div__ul .div__negrita {
-      font-weight: bold;
-      border-left: 1px solid gray; }
 
 .row > * {
   overflow: hidden; }
@@ -129,42 +145,30 @@ html, body {
 
 .footer {
   border-top: 2px #C7B198 solid;
-  background: var(--footer-color);
+  background: #DFD3C3;
   height: 8rem; }
 
 .div__footer {
-  background: var(--footer-color); }
+  background: #DFD3C3; }
   .div__footer .div_contacto {
-    background: var(--footer-color); }
+    background: #DFD3C3; }
     .div__footer .div_contacto .footer__div--h4 {
-      background-color: var(--footer-color);
+      background-color: #DFD3C3;
       margin: 5px; }
     .div__footer .div_contacto .footer__div--p {
-      background-color: var(--footer-color);
+      background-color: #DFD3C3;
       margin: 5px; }
   .div__footer .div_mapa {
     margin: 10px 0px;
-    background: var(--footer-color); }
+    background: #DFD3C3; }
   .div__footer .div_redes {
     margin-bottom: 22px;
-    background: var(--footer-color); }
-    .div__footer .div_redes .fa-instagram {
-      background: var(--footer-color);
-      font-size: 60px;
-      color: #3f729b; }
-    .div__footer .div_redes .fa-facebook {
-      background: var(--footer-color);
-      font-size: 60px;
-      color: #4267B2; }
-    .div__footer .div_redes .fa-twitter {
-      background: var(--footer-color);
-      font-size: 60px;
-      color: #1DA1F2; }
+    background: #DFD3C3; }
 
 .footer__div--h4 {
-  background-color: var(--footer-color);
+  background-color: #DFD3C3;
   margin: 5px; }
 
 .footer__div--p {
-  background-color: var(--footer-color);
+  background-color: #DFD3C3;
   margin: 5px; }

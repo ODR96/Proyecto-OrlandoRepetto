@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #F0ECE3;
-    --footer-color: #DFD3C3;
     color: rgb(51, 51, 51);
     box-sizing: border-box;
 }
@@ -25,6 +24,11 @@ html, body {
     background-color: transparent;
 }
 
+//variables
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/maps';
 
 //Importaciones
 @import './header-footer/header';

@@ -1,0 +1,13 @@
+$redes:(
+    twitter: #1DA1F2,
+    facebook: #4267B2,
+    instagram: #3f729b,
+);
+
+@each $red, $color in $redes {
+    .fa-#{$red} {
+        background: var(--footer-color);
+        font-size: 60px;
+        color: $color;
+    }
+}

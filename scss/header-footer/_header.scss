@@ -5,14 +5,10 @@
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link{
     &:hover{
-    font-size: 20px;
-    color: #A68DAD;
-    transition: all .5s ease-in-out;
+    @include animacionHeader; 
     }
     &:focus {
-        font-size: 20px;
-        color: #A68DAD;
-        transition: all .5s ease-in-out;    
+    @include animacionHeader;
     }
 }
 .navbar-nav a{

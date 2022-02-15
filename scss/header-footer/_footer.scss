@@ -1,59 +1,41 @@
 .footer {
     border-top: 2px #C7B198 solid;
-    background: var(--footer-color);
+    background: $footerColor;
     height: 8rem;
 }
 
 .div__footer {
-    background: var(--footer-color);    
+    background: $footerColor;    
     .div_contacto {
-        background: var(--footer-color);
+        background: $footerColor;
         .footer__div--h4 {
-            background-color: var(--footer-color);
+            background-color: $footerColor;
             margin: 5px;
         }
         
         .footer__div--p {
-            background-color: var(--footer-color);
+            background-color: $footerColor;
             margin: 5px;
         }         
     }
     .div_mapa {
         margin: 10px 0px;
-        background: var(--footer-color);
+        background: $footerColor;
     }
     
     .div_redes {
     margin-bottom: 22px;
-    background: var(--footer-color);
-    
-    .fa-instagram {
-        background: var(--footer-color);
-        font-size: 60px;
-        color: #3f729b  ;
-    }
-    
-    .fa-facebook {
-        background: var(--footer-color);
-        font-size: 60px;
-        color: #4267B2 ;
-    }
-    
-    .fa-twitter {
-        background: var(--footer-color);
-        font-size: 60px;
-        color: #1DA1F2;
-    }
+    background: $footerColor;
     }
 }
 
 .footer__div--h4 {
-    background-color: var(--footer-color);
+    background-color: $footerColor;
     margin: 5px;
 }
 
 .footer__div--p {
-    background-color: var(--footer-color);
+    background-color: $footerColor;
     margin: 5px;
 } 
 
