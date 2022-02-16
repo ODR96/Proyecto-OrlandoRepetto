@@ -172,3 +172,72 @@ html, body {
 .footer__div--p {
   background-color: #DFD3C3;
   margin: 5px; }
+
+  /* Responsive */
+
+@media only screen and (max-width : 750px) {
+  .navbar-brand {
+      margin: 0 auto;
+  }
+
+  .imgIndex {
+      width: 100%;
+      height: 150px;
+  }
+
+  .contenidoNosotros {
+      width: 300px;
+      height: 200px;
+      overflow: auto;
+  }
+
+  .formulario input {
+      width: 250px;
+  }
+  
+  .formulario input:nth-child(9) {
+      height: 150px;
+  }
+
+}
+
+@media only screen and (max-width : 1024px) {
+  .fa-whatsapp {
+      font-size: 60px;
+      color: #25D366;
+  }
+  
+  .fixed {
+      right: 0px;
+      bottom: 70px;
+      background-color: transparent;
+  }
+}
+
+@media only screen and (max-width : 425px) {
+  .fixed {
+      right: 0px;
+      bottom: 70px;
+      background-color: transparent;
+  }
+
+  .div_mapa {
+      display: none;
+  }
+}
+
+@media only screen and (max-width : 375px) {
+  .fixed {
+      right: 60px;
+      bottom: 10px;
+      background-color: transparent;
+  }
+
+  .div_contacto {
+      overflow: visible;
+  }
+
+  .div_mapa {
+      display: none;
+  }
+}
