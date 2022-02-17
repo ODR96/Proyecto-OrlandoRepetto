@@ -15,6 +15,29 @@
     }
 }
 
+.btn_estilos {
+    margin-left: 20px;
+    @include botones;
+}
+
+.caja-estilos {
+    height: 350px;
+    overflow: auto;
+}
+
+.caja-estilos::-webkit-scrollbar {
+    &:vertical {
+        width: 10px;
+    }
+    -webkit-appearance: none;
+}
+
+.caja-estilos::-webkit-scrollbar-thumb {
+    background-color: $footerColor;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
 .row>* {
     overflow: hidden;
 }

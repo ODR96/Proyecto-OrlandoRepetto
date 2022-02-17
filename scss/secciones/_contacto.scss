@@ -28,9 +28,6 @@
 }
 
 .btn-form {
-    padding: 5px;
-    border-radius: .25rem;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px #C7B198;
+    @include botones;
 }
 

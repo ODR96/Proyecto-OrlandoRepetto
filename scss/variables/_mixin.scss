@@ -3,3 +3,10 @@
     color: #A68DAD;
     transition: all .5s ease-in-out; 
 }
+
+@mixin botones {
+    padding: 5px;
+    border-radius: .25rem;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #C7B198;
+}
